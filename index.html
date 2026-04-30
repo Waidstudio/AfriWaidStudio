@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>AfriWaidStudio</title>
 </head>
 
@@ -19,68 +23,82 @@
 
             <div class="mainnav">
              <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="process.html">Process</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="blog.html">Blog</a>
-            <a href="service.html">Services</a>
+            <a href="#index" class="homebtn">Home</a>
+            <a href="#about">About</a>
+            <a href="#process">Process</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog.html">Blog</a>
+            <a href="#service">Services</a>
         </nav>
         </div>
         
-            <a href="contact.html"> <button type="button" onclick="window.location.href='#contact'">Contact</button></a>
+        <div class="navbtn">
+            <a href="contact.html"> Contact Us</a>
+                </div>
 
         </div>
         
     </header>
 
+    <div id="home"></div>
+
+<div id="about"></div>
+
+<div id="process"></div>
+
+<div id="portfolio"></div>
+
+<div id="blog"></div>
+
+<div id="services"></div>
+
     <main>
-        <section class="hero">
+       <section class="hero">
 
-            <div>
+        <div class="hero-content">
 
-            <div class="info">
-                <h2>Hello, We <span>Are AfriWaid Studio</span>
-                </h2>
-                <p> We build websites, digital products, visual identity, and creative solutions <span>designed to help brands grow through code, design and innovation.</span>
-                </p>
+            <div class="intro-text">
+                <h1>Hello, W're <br>AfriWaid Studio</h1>
+
+                <p>We build websites, digital products, visual identity, and creative solutions designed to help brands grow through code, design and innovation. </p>
+
+                <button class="btn-primary" type="button">Work With Us</button>
+            </div>
+
+            <div class="experience-grid">
+                <div class="stat-box">
+                    <h2>15 Y.</h2>
+                    <p>Experience</p>
+                </div>
+
+                <div class="stat-box">
+                    <h2>250+</h2>
+                    <p>Projects Completed</p>
+                </div>
+
+                <div class="stat-box">
+                    <h2>58</h2>
+                    <p>Happy Clients</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="assets/img/Shinnixstar.png" alt="Shinnixstar" width="550px" height="650px">
+
+        </div>
+       </section>
+
+        <section class="about">
+
+            <div class="about-img">
+
+            <div class="image-box">
+                <img src="assets/img/Shinnixstar.png" alt="shinnixstar" width="650px" height="650px">
             
-            <button type="button">Work With Us</button>
-            </div>
-            
-        <div class="experience">
-            <div>
-                <h2>15 Y.</h2>
-                <P>Experience</P>
-            </div>
 
-            <div>
-                <h2>250+</h2>
-                <p>Projects Completed</p>
-            </div>
-
-            <div>
-                <h2>58</h2>
-                <p>Happy Clients</p>
-            </div>
-
-            </div>
-            </div>
-
-            <div>
-                <img src="assets/img/Shinnixstar.png" alt="Shinnixstar" width="500" height="500" title="Shinnixstar">
-            </div>
-
-            </div>
-
-        </section>
-
-        <section>
-            <div>
-                <img src="assets/img/Shinnixstar.png" alt="shinnixstar" width="90%" height="90%">
-            </div>
-
-            <div>
+            <div class="social-icons">
                 <img src="assets/icons/facebook.png" alt="fb" width="20px" height="20px">
 
                 <img src="assets/icons/discord logo.png" alt="discord" width="20px" height="20px">
@@ -93,25 +111,317 @@
 
                 <img src="assets/icons/whatsapp.png" alt="whatsapp" width="20px" height="20px">
             </div>
-
-            <div>
-                <h2>Building Digital and Creative Experience</h2>
-
-                <p>We delivers Wordpress Websites, Full Stack solutions, Logo Designs, Graphic Designs(e.g, banners, fliers, Art works), Content Writing (e.g, Articles, Blog Posts) and Intelligent Creative solutions for modern businesses (e.g, Ai automation, AI powered apps)</p>
+            </div>
             </div>
 
-            <div>
-                <button type="button">My Projects</button>
+            <div class="about-text">
+                <h2>Building Digital and Creative Experience</h2>
 
-                <button type="button">⬇️Download CV</button>
+                <p>We delivers Wordpress Websites, Full Stack solutions, Logo Designs, Graphic Designs(e.g, banners, fliers, Art works), Content Writing (e.g, Articles, Blog Posts) and Intelligent Creative solutions for modern businesses (e.g, Ai automation, AI powered apps)
+                </p>
+            
+
+            <div class="about-btn">
+                <button class="primary" type="button">My Projects</button>
+
+                <button class="secondary" type="button">⬇️Download CV</button>
+            </div>
             </div>
         </section>
 
+        <section class="process">
+
+            <div class="process-container">
+
+            <div class="process-desc">
+
+                <h1>Work Process</h1>
+                <p>Driven by design and powered by code, We build digital interfaces that feel intuitive and perform seamlessly. Every layout, animation, and component is crafted with intention — merging usability with visual clarity,
+                </p> <br> <br>
+
+                <p>
+                    We blend clean design with efficient code to build engaging, user-friendly web experiences, logo designs, article and blog writing that stand out for modern civilization.
+                </p>
+            </div>
+
+            <div class="process-steps">
+
+                    <div class="step-card first-step">
+                    <img class="image"src="assets/icons/search-alt.svg" alt="Research" width="30px" height="30px">
+                    <h2>1. Research</h2>
+                    <p>Design meets function in every pixel, blending clarity with intuitive motion.</p>
+                </div>
+
+                <div class="step-card second-step">
+                    <img src="assets/icons/chat-arrow-grow.svg" alt="Analyze" width="30px" height="30px">
+                    <h2>2. Analyze</h2>
+                    <p>Crafting clean, thoughtful interfaces where form flows seamlessly into function and clarity.</p>
+                </div>
+
+                <div class="step-card third-step">
+                    <img src="assets/icons/pen-clip.svg" alt="Design" width="10px" height="10px">
+                    <h2>3. Design</h2>
+                    <p>I design seamless digital experiences with precision, purpose, and a touch of elegance.</p>
+                </div>
+
+                <div class="step-card fourt-step">
+                    <img src="assets/icons/launch.svg" alt="Launch" width="30px" height="30px">
+                    <h2>4. Launch</h2>
+                    <p>I craft digital products where thoughtful design meets performance-driven, responsive development.</p>
+                </div>
+            </div>
+            </div>
+
+
+        </section>
+
+        <!-- Potfolio Section -->
+
+        <section>
+            <div class="potfolio">
+
+                <div class="potfo-head">
+                    <h2>Portfolio</h2>
+                    <p>Here's a selection of my recent work, showcasing my skills in creating user-centric and visually appealing interfaces.</p>
+                </div>
+                <div class="display">
+
+                <div class="first-pro po-card">
+                    <img src="assets/img/waides ki.png" alt="waidesKI" width="450px" height="240px">
+
+                    <div class="pro-info">
+                        <h3>Waides KI- Autonomous Trading Intelligence</h3>
+                        <p>A sovereign KI-powered trading intelligence system that analyzes crypto, forex, and market behavior in real time, delivering probability-based signals guided by ethical and temporal awareness</p>
+
+                        <a href="#"> <button>Case Study ⇢</button></a>
+                    </div>
+
+                </div>
+
+                <div class="second-pro po-card">
+                    <img src="assets/img/waidesniuz.png" alt="waidesniuz" width="450px" height="240px">
+
+                    <div class="pro-info">
+                        <h3>WaidesNiuz — Real-Time News Intelligence</h3>
+                        <p>An KI-driven news intelligence system that analyzes global events in real time, transforming raw information into clear, structured, and insight-driven updates.</p>
+
+                        <a href="#"> <button>Case Study ⇢</button></a>
+                    </div>
+                </div>
+
+                <div class="third-pro po-card">
+                    <img src="assets/img/konsOS.png" alt="konsos" width="450px" height="240px">
+
+                    <div class="pro-info">
+                        <h3>KonsOS — Sovereign KI Operating System</h3>
+
+                        <p>A unified KI operating system that governs, connects, and powers all Konsmik intelligence layers through structured logic, memory, and execution control.</p>
+
+                        <a href="#"> <button>Case Study ⇢</button></a>
+                    </div>
+                    </div>
+                    
+                    </div>
+
+                <div id="more-pro">
+                    <button>More Projects</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="client-sec">
+            <div class="client-con">
+                <h2>Do you have a Project Idea? Let's discuss your project!</h2>
+
+                <p>I'm always open to discussing new projects and creative ideas. Let's connect and build something amazing together.</p>
+
+                <a href="#" class="client-btn"> <button>Lets Work Together ➡️</button></a>
+            </div>
+        </section>
+
+        <section class="my-work">
+            <div class="work-con">
+            <div class="work-info">
+                <h2>What I do?</h2>
+
+                <div>
+                    <p>I specialize in designing user experiences, crafting engaging interfaces, and building robust web applications that deliver value and usability.</p>
+
+                    <p>My approach combines creativity and technical expertise to deliver solutions that are both visually appealing and highly functional for users.</p>
+                </div>
+                <a href="#" class="work-btn"> <button>Say Hello!</button></a>
+            </div>
+
+            <div class="work-ex">
+                <div class="ex-list">
+                    <h2>User Experience (UX)</h2>
+
+                    <p>I design intuitive and enjoyable experiences by understanding user needs, conducting research, and creating wireframes and prototypes that enhance usability.</p>
+                </div>
+
+                <div class="ex-list">
+                    <h2>User Interface (UI)</h2>
+
+                    <p>I craft visually appealing and consistent interfaces, focusing on layout, color, and typography to ensure a seamless and engaging user journey.</p>
+                </div>
+
+                <div class="ex-list">
+                    <h2>Web Development</h2>
+
+                    <p>I build responsive and high-performance web applications using modern technologies, ensuring accessibility, scalability, and maintainability.</p>
+                </div>
+            </div>
+
+            </div>
+            
+        </section>
+
+        <section id="for-trust">
+
+            <div class="testi-con">
+                
+                <div class="testi-p">
+                <h2>Testimonial</h2>
+
+                
+                <p>Working with this team was a fantastic experience. Their attention to detail and commitment to quality exceeded our expectations.</p>
+                </div>
+                <br> <br>
+
+                
+                <p>“From the initial consultation to the final delivery, every step was handled professionally. The end result was a product that not only met our needs but also impressed our stakeholders. Highly recommended!”</p>
+               
+
+               
+
+                <div class="testifier">
+                    <h3>Esther Howard</h3>
+                     <p>Managing Director, ABC Company</p>
+                </div>
+
+                 </div>
+
+
+                
+           
+
+        </section>
+
+        
+        <section class="contact-section">
+   
+            <div class="contact-container">
+
+        
+        <div class="con-address">
+            <h2>Let’s discuss your Project</h2>
+
+            <p class="contact-text">
+                I'm available for freelance work. Drop me a line if
+                you have a project you think I'd be a good fit for.
+            </p>
+
+            <div class="contact-info">
+
+                <div class="info-box">
+                    <div> <img src="assets/icons/map-marker-home.svg" alt="address" width="40px" height="40px"></div>
+                    <div>
+                        <span>Address:</span>
+                        <h4>No 18, along 24 store pie nut, Junction Sapele Road, Benin City</h4>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div><img src="assets/icons/envelope.svg" alt="mail" width="40px" height="40px"></div>
+                    <div>
+                        <span>My Email:</span>
+                        <h4>Afriwaidstudio@gmail.com</h4>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <div><img src="assets/icons/phone-call.svg" alt="call" width="40px" height="40px"></div>
+                    <div>
+                        <span>Call Me Now:</span>
+                        <h4>+234 913 383 9844</h4>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="address-icons">
+                <a href="#">
+                    <img src="assets/icons/twitter.png" alt="X" width="40px" height="40px">
+                </a>
+                <a href="#">
+                    <img src="assets/icons/instagram.png" alt="ig" width="40px" height="40px">
+                </a>
+                <a href="#">
+                    <img src="assets/icons/whatsapp.png" alt="whatsapp" width="40px" height="40px">
+                </a>
+            </div>
+        </div>
+
+       
+        <div class="contact-form">
+            <p class="form-text">
+                I'm always open to discussing product design work or
+                partnership opportunities.
+            </p>
+
+            <form class="form-info">
+
+                <input type="text" placeholder="Name*">
+                <input type="email" placeholder="Email*">
+                <input type="text" placeholder="Location*">
+
+                <div class="double-input">
+                    <input type="text" placeholder="Budget*">
+                    <input type="text" placeholder="Subject*">
+                </div>
+
+                <textarea placeholder="Message*"></textarea>
+
+                <button type="submit">
+                    Submit →
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+
+    
+</section>
+
+
+<div class="scroll-btn">
+    <a href="index.html">↑</a></div>
 
     </main>
 
+
     <footer>
+        <div class="footer-section">
+            <div class="footer-nav">
+                <img src="assets/img/afriwaid logo.png" alt="logo" width="85x" height="85px">
+                <figcaption>AfriWaid Studio</figcaption>
+        
+        <nav class="nav-ul">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Process</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+
         <p>&copy; 2026 AfriWaid Studio. All rights reserved.</p>
+            </div>
+            <span class="the-dev">Developed with ❤️ by AfriWaid Teams</span>
+        </div>
     </footer>
     
 </body>
